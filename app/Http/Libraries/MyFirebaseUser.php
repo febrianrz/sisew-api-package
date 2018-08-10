@@ -1,5 +1,5 @@
 <?php
-
+namespace Situsewa\Cores\App\Http\Libraries;
 //untuk library koneksi ke firebase
 
 class MyFirebaseUser {

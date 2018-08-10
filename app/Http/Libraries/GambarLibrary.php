@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Libraries;
+namespace Situsewa\Cores\App\Http\Libraries;
 
 class GambarLibrary {
 
