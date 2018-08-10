@@ -1,0 +1,25 @@
+{
+    "name": "situsewa/cores",
+    "description": "Situsewa core API",
+    "authors": [
+        {
+            "name": "febrian",
+            "email": "febrianrz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Situsewa\\Cores\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Situsewa\\Cores\\SitusewaServiceProvider"
+            ]
+        }
+    }
+}
