@@ -1,0 +1,35 @@
+{
+    "routePrefix": "administration.merchants",
+    "readSuffix": "getTableData",
+    "writeSuffix": null,
+    "name": "Registered Entities",
+    "icon": "list-alt",
+    "crtNo": true,
+    "buttons": ["excel"],
+    "columns": [
+        {
+            "label": "Nama",
+            "name": "nama",
+            "data": "tokos.nama",
+            "meta": [ "searchable", "sortable" ]
+        },
+        {
+            "label": "Alamat",
+            "name": "alamat",
+            "data": "tokos.alamat",
+            "meta": [ "searchable", "sortable" ]
+        },
+        {
+            "label": "Online",
+            "name": "status_online",
+            "data": "tokos.status_online",
+            "meta": [ "boolean" ]
+        }, 
+        {
+            "label": "Jenis Merchant",
+            "name": "jenis_merchant",
+            "data": "tokos.jenis_merchant",
+            "meta": [ "searchable", "sortable" ]
+        }
+    ]
+}
