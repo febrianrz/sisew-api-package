@@ -1,4 +1,5 @@
 <?php
+namespace Situsewa\Cores\App\Http\Helpers;
 
 function getJenisBooking($status){
     $arr = [1=>'Booking Lapangan','Booking Event','Booking Barang'];

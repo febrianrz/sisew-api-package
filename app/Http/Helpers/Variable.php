@@ -1,4 +1,5 @@
 <?php
+namespace Situsewa\Cores\App\Http\Helpers;
 
 define('WAKTU_EXPIRED_BOOKING_LAPANGAN',10); //dalam minute
 
