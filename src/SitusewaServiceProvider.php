@@ -13,9 +13,8 @@ class SitusewaServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__.""
-        ]);
+        include __DIR__."app/";
+        include __DIR__."src/";
     }
 
     /**
@@ -25,6 +24,9 @@ class SitusewaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // $this->app['cores'] = $this->app->share(function($app){
+        //     return new Cores;
+        // });
+        $this->app->register('Situsewa/Cores/SitusewaServiceProvider');
     }
 }
